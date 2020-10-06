@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+header{
+    height:75px;
+    width:100%;
+    margin: 0px 0px;
+    background-color: #404C58;
+    opacity: 0.9;
+    position: fixed;
+}
+.container{
+    width:95%;
+    margin: 0 auto;
+}
+header img{
+    padding:20px 0px;
+    float: left;
+    padding-left: -10px;
+    width:100px;
+    opacity: 1.0;
+    
+}
+header a{
+    padding:20px 0px;
+    float:right;
+    color:skyblue;
+    padding-left:30px;
+    opacity: 1.0;
+}
+
+
+main img{
+    margin-top:80px;
+    width:120px;
+    border-radius: 15px;
+    border: 1px slategray solid;
+}
+main strong{
+    color:red;
+}
+.app{
+    width:25%;
+    float:left;
+}
