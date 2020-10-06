@@ -28,9 +28,10 @@ header a{
     opacity: 1.0;
 }
 
-
+main h1{
+    padding-top:80px;
+}
 main img{
-    margin-top:80px;
     width:120px;
     border-radius: 15px;
     border: 1px slategray solid;
@@ -39,6 +40,6 @@ main strong{
     color:red;
 }
 .app{
-    width:25%;
+    width:50%;
     float:left;
 }
