@@ -1,9 +1,13 @@
 @charset "utf-8";
 
+*{
+    margin:0px;
+    padding:0px;
+}
+
 header{
     height:75px;
     width:100%;
-    margin: 0px 0px;
     background-color: #404C58;
     opacity: 0.9;
     position: fixed;
@@ -26,10 +30,12 @@ header a{
     color:skyblue;
     padding-left:30px;
     opacity: 1.0;
+    margin-bottom: 30px;
 }
 
 main h1{
-    padding-top:80px;
+    padding-top:90px;
+    padding-bottom: 20px;
 }
 main img{
     width:120px;
@@ -39,7 +45,15 @@ main img{
 main strong{
     color:red;
 }
+main p{
+    font-size: 14px;
+    line-height: 14px;
+}
 .app{
     width:50%;
-    float:left;
+    float: left;
+    margin-bottom: 50px;
+}
+.buzz p{
+    display: inline;
 }
