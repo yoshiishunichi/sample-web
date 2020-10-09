@@ -32,20 +32,23 @@ header a{
     opacity: 1.0;
     margin-bottom: 30px;
 }
-
-main h1{
+.main{
+    background: white;
+    height: 1000px;
+}
+.main h1{
     padding-top:90px;
     padding-bottom: 20px;
 }
-main img{
+.main img{
     width:120px;
     border-radius: 15px;
     border: 1px slategray solid;
 }
-main strong{
+.main strong{
     color:red;
 }
-main p{
+.main p{
     font-size: 14px;
     line-height: 14px;
 }
@@ -56,4 +59,14 @@ main p{
 }
 .buzz p{
     display: inline;
+}
+
+footer {
+    border-top:solid #eee 1px;
+    height: 60px;
+    width:100%;
+    color:#b3aeb5;
+    font-size:12px;
+    text-align: center;
+    padding: 30px 0px;
 }
