@@ -40,7 +40,16 @@ header a{
     opacity: 1.0;
     margin-bottom: 30px;
 }
-
+.menubtn{
+    background-color: #404c58;
+    border: none;
+    float: right;
+    color: white;
+    margin:25px 0px;
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
 .main{
     background-color: #485a6b;
     height: 1000px;
