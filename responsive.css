@@ -1,0 +1,7 @@
+/* モバイル向けレイアウト */
+@media all and (max-width: 700px) {
+  .links {
+    display: none;
+  }
+  
+}
