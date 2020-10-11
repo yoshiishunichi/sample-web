@@ -57,34 +57,46 @@ header .menu{
 
 .main{
     background-color: #485a6b;
-    height: 1000px;
+    height: 640px;
 }
-.main h1{
-    padding-top:100px;
-    padding-bottom: 30px;
+.main .space{
+    background-color: #485a6b;
+    padding-top: 100px;
 }
-.main img{
-    width:120px;
+.main .contents{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color:  #485a6b;
     border-radius: 15px;
-    border: .3px slategray solid;
+    margin-bottom: 30px;
 }
-.main strong{
-    color:red;
-}
-.main p{
-    font-size: 14px;
-    line-height: 14px;
-}
-.app{
-    width:50%;
-    float: left;
-    margin-bottom: 50px;
-}
-.buzz p{
-    display: inline;
+.main label{
     color: white;
 }
+.main input{
+    border-radius: 5px;
+    width: 50%;
+    height: 20px;
+    padding: 1px;
+}
+.main textarea{
+    margin-left: 30px;
+    width: 70%;
+    height: 90px;
+    border-radius: 5px;
+    padding:2px;
+}
+.main .serve{
+    width: 50px;
+    height: 25px;
+    margin-left: 100px;
+    cursor: pointer;
+}
 
+
+.contents-wrapper img{
+    border-radius: 10px;
+}
 footer {
     background-color:  #485a6b;
     border-top:solid gray 1px;
