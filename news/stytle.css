@@ -13,6 +13,7 @@ a{
     color:skyblue;
 }
 h1{
+    font-size: 25px;
     color: white;
 }
 
@@ -54,36 +55,37 @@ header .menu{
     opacity: .8;
 }
 
+
 .main{
     background-color: #485a6b;
-    height: 1000px;
+    height: 2500px;
 }
-.main h1{
-    padding-top:100px;
-    padding-bottom: 30px;
+.main .space{
+    background-color: #485a6b;
+    padding-top: 100px;
 }
-.main img{
-    width:120px;
+.main .contents{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
     border-radius: 15px;
-    border: .3px slategray solid;
+    margin-bottom: 30px;
 }
-.main strong{
-    color:red;
+.contents .contents-wrapper{
+    width: 90%;
+    margin: 0px auto;
 }
 .main p{
     font-size: 14px;
     line-height: 14px;
+    color: black;
 }
-.app{
-    width:50%;
-    float: left;
-    margin-bottom: 50px;
+.main h1{
+    color: black;
 }
-.buzz p{
-    display: inline;
-    color: white;
+.contents-wrapper img{
+    border-radius: 10px;
 }
-
 footer {
     background-color:  #485a6b;
     border-top:solid gray 1px;
