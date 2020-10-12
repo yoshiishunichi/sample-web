@@ -65,6 +65,7 @@ header .menu{
     padding-top: 100px;
 }
 .main .contents{
+    margin-top: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: white;
@@ -80,7 +81,10 @@ header .menu{
     line-height: 14px;
     color: black;
 }
-.main h1{
+.main .container{
+    color: white;
+}
+.contents h1{
     color: black;
 }
 .contents-wrapper img{
