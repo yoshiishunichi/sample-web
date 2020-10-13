@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    width:95%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color:skyblue;
+}
+h1{
+    font-size: 25px;
+    color: white;
+}
+
+header{
+    height:75px;
+    width:100%;
+    background-color: #404c58;
+    opacity: 0.9;
+    position: fixed;
+    border-bottom: solid gray 1px;
+}
+
+header img{
+    padding:23px 0px;
+    float: left;
+    padding-left: -10px;
+    width:120px;
+    opacity: 1.0;
+    
+}
+header .menu{
+    padding:25px 0px;
+    float:right;
+    padding-left:30px;
+    opacity: 1.0;
+    margin-bottom: 30px;
+}
+.menubtn{
+    background-color: #404c58;
+    border: none;
+    float: right;
+    color: white;
+    margin:25px 0px;
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
+.menubtn:hover{
+    opacity: .8;
+}
+
+
+.main{
+    background-color: #485a6b;
+    height: 1300px;
+}
+.main .space{
+    background-color: #485a6b;
+    padding-top: 100px;
+}
+.main .contents{
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.contents .contents-wrapper{
+    width: 90%;
+    margin: 0px auto;
+}
+.main p{
+    font-size: 15px;
+    
+    color: black;
+}
+.main .container{
+    color: white;
+}
+.contents h1{
+    padding-top: 10px;
+    color: black;
+}
+.contents-wrapper .sc{
+    border: solid gray;
+    border-width: .1px;
+    border-radius: 10px;
+}
+.backhome{
+    padding-left: 10px;
+}
+footer {
+    background-color:  #485a6b;
+    border-top:solid gray 1px;
+    height: 70px;
+    width:100%;
+    color:#aaa;
+    font-size:12px;
+    text-align: center;
+    padding: 10px 0px;
+}
+footer p{
+    padding: 30px 0px;
+}
