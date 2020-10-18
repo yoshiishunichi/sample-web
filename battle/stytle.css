@@ -15,13 +15,15 @@ a{
     text-decoration: none;
     color:skyblue;
 }
+a:hover{
+    opacity: .5;
+}
 h1{
     font-size: 25px;
     color: white;
 }
 
 header{
-    height:75px;
     width:100%;
     background-color: #404c58;
     opacity: 0.9;
@@ -30,34 +32,39 @@ header{
 }
 
 header img{
-    padding:23px 0px;
-    float: left;
+    padding-top:23px;
     padding-left: -10px;
     width:120px;
     opacity: 1.0;
     
 }
-header .menu{
-    padding:25px 0px;
+header .links{
+    margin-top:25px;
     float:right;
+}
+header .menu{
     padding-left:30px;
-    opacity: 1.0;
-    margin-bottom: 30px;
 }
 .menubtn{
     background-color: #404c58;
     border: none;
     float: right;
     color: white;
-    margin:25px 0px;
+    margin-top:25px;
     font-size: 25px;
     display: none;
     cursor: pointer;
 }
 .menubtn:hover{
-    opacity: .8;
+    opacity: .5;
 }
 
+#menulist{
+    float: left;
+    margin-top: 10px;
+    list-style: none;
+    display: none;
+}
 
 .main{
     background-color: #485a6b;

@@ -14,15 +14,23 @@
 <body>
     <header>
         <div class="container">
-            <a class="logo" href="../index.html"><img src="../img/icon.jpg"></a>
-            <div class="links">
-                <a class="menu" href="../contact/contact.html">お問い合わせ</a>
-                <a class="menu" href="https://twitter.com/ganja_tuber" target="_blank"
-                    rel="noopener noreferrer">Twitter</a>
-                <a class="menu" href="../news/news.html">新着情報</a>
-                <a class="menu" href="../profile/profile.html">プロフィール</a>
+            <div id="menuheads">
+                <a class="logo" href="../index.html"><img src="../img/icon.jpg"></a>
+                <div class="links">
+                    <a class="menu" href="../profile/profile.html">プロフィール</a>
+                    <a class="menu" href="../news/news.html">新着情報</a>
+                    <a class="menu" href="https://twitter.com/ganja_tuber" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    <a class="menu" href="../contact/contact.html">お問い合わせ</a>
+                </div>
+                <button type="button" id="open" class="menubtn"><i class="fa fa-bars"></i><span></span></button>
             </div>
-            <button type="button"  id="open" class="menubtn"><i class="fa fa-bars"></i><span></span></button>
+            <ul id="menulist">
+                <li><a class="mList" href="../profile/profile.html">プロフィール</a></li>
+                <li><a class="mList" href="../news/news.html">新着情報</a></li>
+                <li><a class="mList" href="https://twitter.com/ganja_tuber" target="_blank" rel="noopener noreferrer">Twitter</a>
+                </li>
+                <li><a class="mList" href="../contact/contact.html">お問い合わせ</a></li>
+            </ul>
         </div>
     </header>
     <div class="main">
@@ -55,6 +63,7 @@
             <p>© 2020 Ganja_Tuber.</p>
         </div>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
