@@ -5,6 +5,9 @@
     margin:0px;
     padding:0px;
 }
+body{
+    font-family: "游ゴシック", YuGothic, sans-serif;
+}
 .container{
     width:95%;
     margin: 0 auto;
