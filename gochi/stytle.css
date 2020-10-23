@@ -54,6 +54,7 @@ header .menu{
     font-size: 25px;
     display: none;
     cursor: pointer;
+    outline:none;
 }
 .menubtn:hover{
     opacity: .5;
