@@ -7,3 +7,17 @@
     display: block;
   }
 }
+@media all and (max-width: 390px){
+  .main{
+    height: 1800px;
+  }
+  .container .app{
+    width:100%;
+    float: none;
+  }
+}
+@media all and (min-height: 1000px){
+  .main{
+    height: 1300px;
+  }
+}

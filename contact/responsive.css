@@ -7,3 +7,13 @@
     display: block;
   }
 }
+@media all and (min-height: 800px) {
+  .main{
+    height: 820px;
+  }
+}
+@media all and (min-height: 1000px) {
+  .main{
+    height: 1300px;
+  }
+}
