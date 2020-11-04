@@ -101,6 +101,9 @@ header .menu{
     padding-top: 10px;
     color: black;
 }
+.contents img{
+    width: 250px;
+}
 .contents-wrapper .sc{
     border: solid gray;
     border-width: .1px;

@@ -104,6 +104,9 @@ header .menu{
     border-width: .1px;
     border-radius: 10px;
 }
+.contents img{
+    width: 250px;
+}
 .backhome{
     padding-left: 10px;
 }

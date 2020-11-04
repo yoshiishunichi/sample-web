@@ -69,7 +69,7 @@ header .menu{
 
 .main{
     background-color: #485a6b;
-    height: 1250px;
+    height: 1300px;
 }
 .main .space{
     background-color: #485a6b;
@@ -89,7 +89,6 @@ header .menu{
 }
 .main p{
     font-size: 15px;
-    
     color: black;
 }
 .main .container{
@@ -98,6 +97,9 @@ header .menu{
 .contents h1{
     padding-top: 10px;
     color: black;
+}
+.contents img{
+    width: 250px;
 }
 .contents-wrapper .sc{
     border: solid gray;

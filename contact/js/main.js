@@ -27,5 +27,9 @@
             menulist.style.display = "none";
         }
     }, false);
-
+    
+    const comment = document.getElementById("comment");
+    comment.addEventListener("resize", ()=> {
+        console.log("サイズ変わってんでえ");
+    })
 }

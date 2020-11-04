@@ -80,28 +80,28 @@ header .menu{
     padding-bottom: 5px;
     background-color:  #485a6b;
     border-radius: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .main label{
     color: white;
 }
 .main input{
     border-radius: 5px;
-    width: 50%;
+    width: 70%;
     height: 20px;
     padding: 1px;
 }
 .main textarea{
-    margin-left: 30px;
+    resize: none;
     width: 70%;
-    height: 90px;
+    height: 170px;
     border-radius: 5px;
     padding:2px;
 }
 .main .serve{
     width: 50px;
     height: 25px;
-    margin-left: 100px;
+    margin-left: 5px;
     cursor: pointer;
 }
 
