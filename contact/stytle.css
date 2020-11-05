@@ -6,6 +6,7 @@
 }
 body{
     font-family: "游ゴシック", YuGothic, sans-serif;
+    color: white;
 }
 .container{
     width:95%;
@@ -69,7 +70,7 @@ header .menu{
 
 .main{
     background-color: #485a6b;
-    height: 640px;
+    height: 650px;
 }
 .main .space{
     background-color: #485a6b;
