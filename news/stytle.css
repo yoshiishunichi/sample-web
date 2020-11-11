@@ -68,7 +68,7 @@ header .menu{
 
 .main{
     background-color: #485a6b;
-    height: 1600px;
+    height: 2100px;
 }
 .main .space{
     background-color: #485a6b;
@@ -98,9 +98,12 @@ header .menu{
     color: black;
 }
 .contents-wrapper img{
+    border: solid gray 1px;
     border-radius: 10px;
-    border-color: gray;
     width: 80%;
+}
+#mimiInstruct{
+    margin-top: 20px;
 }
 footer {
     background-color:  #485a6b;
