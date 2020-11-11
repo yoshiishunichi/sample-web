@@ -100,7 +100,7 @@ header .menu{
 .contents-wrapper img{
     border: solid gray 1px;
     border-radius: 10px;
-    width: 80%;
+    width: 300px;
 }
 #mimiInstruct{
     margin-top: 20px;
