@@ -22,6 +22,7 @@ h1{
     font-size: 25px;
     color: white;
 }
+
 header{
     width:100%;
     background-color: #404c58;
@@ -68,7 +69,7 @@ header .menu{
 
 .main{
     background-color: #485a6b;
-    height: 2700px;
+    height: 800px;
 }
 .main .space{
     background-color: #485a6b;
@@ -87,27 +88,27 @@ header .menu{
     margin: 0px auto;
 }
 .main p{
-    font-size: 14px;
-    line-height: 14px;
+    font-size: 15px;
+    
     color: black;
 }
 .main .container{
     color: white;
 }
 .contents h1{
+    padding-top: 10px;
     color: black;
 }
-.contents-wrapper img{
-    border: solid gray 1px;
+.contents-wrapper .sc{
+    border: solid gray;
+    border-width: .1px;
     border-radius: 10px;
-    width: 300px;
 }
-#mimiInstruct{
-    margin-top: 20px;
+.contents img{
+    width: 250px;
 }
-#bombInstruct{
-    margin-top: 20px;
-
+.backhome{
+    padding-left: 10px;
 }
 footer {
     background-color:  #485a6b;
