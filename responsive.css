@@ -15,6 +15,15 @@
     width:100%;
     float: none;
   }
+
+
+  .git-text{
+    font-size: 10px;
+  }
+
+  .git-link{
+    font-size: 10px;
+  }
 }
 @media all and (min-height: 1000px){
   .main{
