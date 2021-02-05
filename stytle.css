@@ -69,10 +69,10 @@ header .menu{
 
 .main{
     background-color: #485a6b;
-    height: 1200px;
+    height: 1300px;
 }
-.main h1{
-    padding-top:100px;
+h1{
+    padding-top:30px;
     padding-bottom: 30px;
 }
 .main img{
@@ -109,4 +109,18 @@ footer {
 }
 footer p{
     padding: 30px 0px;
+}
+
+.git-text{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.git-link{
+    padding-left: 5px;
+    text-decoration: underline;
+}
+
+.git-title{
+    padding-top: 100px;
 }
